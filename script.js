@@ -49,9 +49,9 @@ function generateRandomNumber(max) {
 
 function startNewRound() {
   inputNumberElement.value = '';
-  const generatedNumber = generateRandomNumber(100)
+  const generatedNumber = generateRandomNumber(100);
   randomNumberElement.innerText = generatedNumber;
-  answer = humanize(generatedNumber);
+  answer = humanize(generatedNumber).trim();
 };
 
 function guessNumber() {
