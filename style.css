@@ -1,0 +1,31 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#number-to-guess {
+    text-align: center;
+    font-size: 3rem
+}
+
+.guess-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-guess {
+    margin: 20px 0;
+    border-radius: 7px;
+    width: 15rem;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+#btn-guess {
+    border: 0;
+    background-color:rgb(32, 214, 108);
+    color:rgba(0, 0, 0, 0.897);
+    border-radius: 10%;
+    padding: 5px 10px;
+    font-size: 2rem;
+}
